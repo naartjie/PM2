@@ -10,7 +10,7 @@
 - [Different ways to launch a process](#raw-examples)
 - [Options](#a987)
   - [Schema](#a988)
-- [How to update PM2?](#update-pm2)
+- [How to update PM2?](#update-pm2)lo
 
 ### Features
 
@@ -460,11 +460,11 @@ Options:
 
 ```
 {
-  "script"        : "echo.js",
-  "err_file"      : "err.log",
-  "out_file"      : "out.log",
-  "merge_logs"    : true,
-  log_date_format : "YYYY-MM-DD HH:mm Z"
+  "script"          : "echo.js",
+  "err_file"        : "err.log",
+  "out_file"        : "out.log",
+  "merge_logs"      : true,
+  "log_date_format" : "YYYY-MM-DD HH:mm Z"
 }
 ```
 
